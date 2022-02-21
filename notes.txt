@@ -1,0 +1,57 @@
+notes of javascript
+
+in-line comment = //
+multi-line comment using symbol /* jjffsjjf */
+
+data types in javascript
+    undefined,null,boolean,string,symbol,number,and object
+
+declaring a variable (var=myName, let=ourName, const=pi)
+    var myName;
+        var can be used in our whole programme.
+    let ourName;
+        let can be only be used of our scope where we declare that.
+    const pi;
+        this variable can never be changed.
+
+assigning a variable
+    var b= 2; (declaring and assigning variable in one line)
+        (=) is assignment operator
+    { myName="abhishek";
+    ourName="freecodecamp";
+    pi=3.14; }
+
+## while declaring a variable case sensitivity is important (myName is not same as myname)
+
+basic maths in javascript
+    var add= 5+7; // 12
+    var subtract = 8-2; // 6
+    var multiply = 5* 2; //10
+    var quotient = 33/2; //16.5
+    var reminder = 33%2; // 1
+
+incrementing or decrementing number (adding or subtracting 1 )
+    var num = 23;
+    num = num+1 or num++  (incrementing) // 24 result
+    num=num-1 or num-- (decrementing) // 22 result
+
+string variable
+    ##these variable are quoted within single or double quotes( 'hello' or "hello")
+    var name = 'abhishek'
+    var name ="abhishek"
+    var name = 'abhishek" (wrong)
+    var name ="abhishek' (wrong)
+
+    var x= "2" (string variable, because quoted with double quotes)
+
+
+escape sequences in javascript
+    CODE            OUTPUT
+    \'              single quotes
+    \"              double quotes
+    \\              backslash
+    \n              new line
+    \r              carriage return
+    \t              tab
+    \b              backspace
+    \f              form feed
