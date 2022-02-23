@@ -55,3 +55,19 @@ escape sequences in javascript
     \t              tab
     \b              backspace
     \f              form feed
+        examples
+        console.log("i don\'t know")    
+        //i don't know
+        console.log("hii \"double quotes\"") 
+        //hii "double quotes"
+        console.log("this is \\ backslash") 
+        //this is \ backslash
+        console.log("this is \n start of new line") 
+        // this is
+           start of new line
+
+concatenating string with plus operator
+    examples
+        var myStr ="this is the start" + "this is the end";
+            //this is the start this is the end
+            

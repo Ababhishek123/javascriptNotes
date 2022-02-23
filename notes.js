@@ -20,10 +20,14 @@ in javascript */
 
 // console.log("i don\'t know")    //i don't know
 // console.log("hii \"double quotes\"") //hii "double quotes"
-// console.log("this is \\ backslash")
-// console.log("this is \n start of new line")
-console.log("hii \r  hfh carriage return \r helloooo multiverse")
+// console.log("this is \\ backslash") //this is \ backslash
+// console.log("this is \n start of new line") // this is
+// //                                                  start of new line
+// console.log("hii \r  hfh carriage return \r helloooo multiverse")
 
-console.log("helllo \t \t \t multiverse")
+// console.log("helllo \t \t \t multiverse")
 
-console.log("hello \b \b \b\b  backspace")
+// console.log("hello \b \b \b\b  backspace")
+
+var myStr ="this is the start" + " this is the end";
+console.log(myStr);
