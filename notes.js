@@ -4,8 +4,14 @@
 in javascript */
 
 
-    //data types in javascript
-
+//data types in javascript
+// var number = 10; // number
+// var string = "Hello"; // string
+// var boolean = true; // boolean
+// var array = [1, 2, 3]; // array
+// var object = { name: "John", age: 25 }; // object
+// var nullValue = null; // null
+// var undefinedValue = undefined; // undefined
 
 //declaring a variabla
 
@@ -29,5 +35,6 @@ in javascript */
 
 // console.log("hello \b \b \b\b  backspace")
 
+//string concatenation
 var myStr ="this is the start" + " this is the end";
 console.log(myStr);
